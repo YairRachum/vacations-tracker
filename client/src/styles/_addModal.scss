@@ -1,0 +1,27 @@
+.addVacationForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  input {
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+.secondForm {
+  display: flex;
+  flex-direction: column;
+  button {
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
+
+.firstForm {
+  display: flex;
+  flex-direction: column;
+}
+
+

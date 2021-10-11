@@ -1,0 +1,79 @@
+.registerInputs {
+  margin: 4px;
+  padding: 5px;
+  input {
+    padding: 15px;
+    margin: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    &::placeholder {
+      font-size: 15px;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.registerBtnRegister {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 13px;
+  width: 170px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.loginBtnRegister {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 13px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.registerDiv {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.firstAndLastName {
+  display: flex;
+}
+
+.userNameAndPassword {
+  display: flex;
+}
+
+#registerBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  background-image: url("../images/loginWallpaper.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}

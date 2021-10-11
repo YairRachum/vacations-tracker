@@ -1,0 +1,84 @@
+{
+  "name": "project3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.16",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@types/reveal": "^4.1.1",
+    "@types/socket.io-client": "^3.0.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bulma": "^0.9.3",
+    "chart.js": "^3.5.0",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^4.1.17",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-chartjs-2": "^3.0.4",
+    "react-clock": "^3.0.0",
+    "react-date-picker": "^8.2.0",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-fade-in": "^2.0.1",
+    "react-icons": "^4.2.0",
+    "react-modal-bootstrap": "^1.1.1",
+    "react-moment-datepicker": "^0.0.10",
+    "react-redux": "^7.2.4",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll-up": "^1.3.7",
+    "sass": "^1.35.2",
+    "socket.io-client": "^4.1.3",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/jquery": "^3.5.6",
+    "@types/react-clock": "^3.0.1",
+    "@types/react-datepicker": "^4.1.4",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/styled-components": "^5.1.12",
+    "@types/uuid": "^8.3.1"
+  }
+}

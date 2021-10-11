@@ -1,0 +1,278 @@
+.vacation {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  height: 220px;
+  display: flex;
+  z-index: 250;
+  input {
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  img {
+    height: 208px;
+    border-radius: 12px;
+  }
+  ::placeholder {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  :focus {
+    outline: none;
+  }
+  button {
+    padding: 8px;
+    margin-left: 8px;
+  }
+  span {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  transition: 0.1s ease;
+  border: 6px solid white;
+
+  &:hover {
+    transition: 0.1s ease;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .vacationNato {
+      // background-color: rgb(146, 146, 146);
+      transition: 0.5s ease;
+      // color: white;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+  }
+}
+
+#nato {
+  margin-top: 170px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+.vacationsContainer {
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/vacationsBackground.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 100;
+}
+
+#editBtn {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: -10px;
+}
+
+#deleteBtn {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: -13px;
+}
+
+.deleteAndEditDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.follow {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.followBtn {
+  background-color: rgb(86, 86, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.unFollowBtn {
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.vacationSpecs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px;
+}
+
+.vacationDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.descriptionAndPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  width: 280px;
+}
+
+.fromToDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.vacationNato {
+  width: 100%;
+  height: 100%;
+
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  transition: 1s ease;
+}
+
+textarea {
+  resize: none;
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  line-height: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  transition: 1s ease all;
+  font-size: 19px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+@media only screen and (max-width: 1000px) {
+  #nato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+  .vacation {
+    width: 350px;
+    flex-direction: column;
+    height: fit-content;
+    img {
+      width: 350px;
+    }
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .deleteAndEditDiv {
+    display: flex;
+    width: fit-content;
+  }
+  .vacationDetails {
+    flex-direction: column;
+  }
+  .vacationNato {
+    width: 100%;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+.moving-cloud-1 {
+  animation: cloudAnimation 2s infinite alternate ease-in-out;
+}
+
+.cloud {
+  pointer-events: none;
+  z-index: 1;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+.moving-cloud-2 {
+  animation: cloudAnimation 3.3s infinite alternate ease-in-out;
+  top: 0%;
+  left: -10%;
+}
+
+@keyframes cloudAnimation {
+  from {
+    opacity: 0.7;
+    transform: translate(10%, -10%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+
+#upButton {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
